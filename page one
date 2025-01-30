@@ -1,0 +1,14 @@
+ BCA-Full-Stack
+
+HTML 
+Hypertext Markup Language
+Describes structure of a web page
+Contains elements
+Elements describe how to render content
+Elements are enclosed in Tags
+Tags surround and describe content
+Start tag –Text in angle brackets (i.e. <body>)
+End tag –Text with leading slash in angle brackets (i.e. </body>)
+Tags must be properly nested!
+Attributes contained inside tags refine the operation of the tag
+Format is: <tagname attr1=value, attr2=value…>
