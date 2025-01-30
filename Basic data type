@@ -1,0 +1,44 @@
+HTML – Basic Tags
+<html></html> - Surround entire document
+<head></head> - Surround header material (titles, css info,
+etc.)
+<body></body> - Contains the main content of the page
+<p></p> - Hold a single paragraph that the browser will
+typeset.
+<h1></h1>, <h2></h2>, … - Hold a heading line that is
+used to mark sections of a document for the reader
+
+HTML – More basic tags
+Links –These mark a hyperlink around link text. When click by
+user, browser loads the page in the HREF attribute.
+Format <A HREF=“url target”>Text for link</A>
+Only ‘Text for link’ will show up on page.
+Target attribute, indicates which window/tab should be used
+for the linked page
+target=“_self ” – Default. Place the content in the current tab
+target=“_blank” – Place the content in a newly created tab
+
+HTML – More basic tags
+<IMG> -Will display an image
+Image file must be in a popular graphics format (gif, jpg, png, etc)
+Format :
+<IMG src=“url for image file” width=#, height=#, alt=“Text to display”>
+
+HTML – More on Links
+ href attribute
+ This can be any URI or local file
+ URI should include protocol, server, and path
+ Local file can be specified with an absolute or relative path
+ Content can be text OR an image. Ex:
+<A HREF=http://target.com/path/file.html>
+<IMG src=“small_pic.jpg”>
+</A>
+title attribute
+Used to provide descriptive text.
+Text is displayed when cursor is hovered over link
+
+HTML - Lists
+Supports:
+<UL></UL> - Unordered List
+<OL></OL> - Ordered List
+<LI></LI> - Encloses a single list item
